@@ -5,7 +5,7 @@ from kivy.core.window import Window
 from random import randint
 
 FRAME_RATE_SPEED = .25
-MOVEMENT_SPEED = 40
+MOVEMENT_SPEED = 60
 
 class SnakePart(Widget):
     pass

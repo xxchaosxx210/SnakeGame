@@ -1,7 +1,8 @@
 #:import random random
+#:import MOVEMENT_SPEED __main__.MOVEMENT_SPEED
 
 <SnakePart>:
-    size: 40, 40
+    size: MOVEMENT_SPEED, MOVEMENT_SPEED
     canvas.before:
         Color:
             rgb: random.random(), random.random(), random.random()
@@ -17,7 +18,7 @@ GameScreen:
             size: self.size
             pos: self.pos
     Widget:
-        size: 40, 40
+        size: MOVEMENT_SPEED, MOVEMENT_SPEED
         pos: 120, 120
         id: food
         canvas.before:
