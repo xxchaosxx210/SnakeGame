@@ -4,7 +4,7 @@ from kivy.clock import Clock
 from kivy.core.window import Window
 from random import randint
 
-FRAME_RATE_SPEED = .25
+FRAME_RATE_SPEED = .10
 MOVEMENT_SPEED = 60
 
 class SnakePart(Widget):
